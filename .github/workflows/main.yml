@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
-        uses: actions/checkout@v4   // Fetch the code from the github repo
+        uses: actions/checkout@v4
 
       - name: Maven test
         run: mvn test
