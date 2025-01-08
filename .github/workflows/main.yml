@@ -49,7 +49,7 @@ jobs:
       - name: "Example show SonarQube Server Quality Gate Status value"
         run: echo "The Quality Gate status is ${{ steps.sonarqube-quality-gate-check.outputs.quality-gate-status }}"
 
-  Build and Publish:
+  Build_and_Publish:
     needs: Testing        # Complete Testing jobs first
     runs-on: ubuntu-latest
     steps:
