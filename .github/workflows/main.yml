@@ -1,5 +1,5 @@
 name: HProfile Actions
-on: [push, workflow_dispatch]
+on: [push, workflow_dispatch] # Automatically trigger
 env:
   AWS_REGION: us-east-2
   ECR_REPOSITORY: actapp
